@@ -1,11 +1,17 @@
 /**Headers.*/
  #include <stdio.h>
+ #include <QtGui/QApplication>
+ #include "mainwindow.h"
 
 
 
 /***/
-int  main() {
- 
+int main(int argc, char *argv[]) {
+ QApplication a(argc, argv);
+ MainWindow w;
+ w.show();
+
  fprintf(stdout, "Just a test by now\n");
- return (0);
+
+ return a.exec();
 }
