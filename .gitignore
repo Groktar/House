@@ -3,3 +3,5 @@
 House
 moc_*
 *.core
+House.pro.user
+Makefile
