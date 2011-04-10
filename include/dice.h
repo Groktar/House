@@ -18,7 +18,7 @@
 #ifndef DICE_H
 #define DICE_H
 
-enum Dice_Types {d6=6, d20=20};
+enum Dice_Types {d3=3, d6=6, d20=20};
 
 
 class Dice {
