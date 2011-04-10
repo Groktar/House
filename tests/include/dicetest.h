@@ -15,12 +15,18 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/**Headers.*/
- #include "sandbox.h"
+#ifndef DICETEST_H
+#define DICETEST_H
 
 
-/**Start tests.*/
-int  lets_play_with_sand() {
 
- return (0);
-}
+/**Dice generation test.*/
+int  generate_dices(); 
+
+/**Dice error control test.*/
+int  error_control_in_dices(); 
+
+/**Dice rolling test.*/
+int roll_roll_dice(const unsigned short int dice_type);
+
+#endif
