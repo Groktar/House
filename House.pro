@@ -9,5 +9,5 @@ TARGET = House
 INCLUDEPATH += include
 VPATH += include src
 
-HEADERS += mainwindow.h
-SOURCES += main.cpp mainwindow.cpp
+HEADERS += mainwindow.h sandbox.h
+SOURCES += main.cpp mainwindow.cpp sandbox.cpp

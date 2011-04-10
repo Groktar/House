@@ -16,20 +16,11 @@
  */
 
 /**Headers.*/
- #include <stdio.h>
- #include <QtGui/QApplication>
- #include "mainwindow.h"
  #include "sandbox.h"
 
 
+/**Start tests.*/
+int  lets_play_with_sand() {
 
-/**Main function.*/
-int main(int argc, char *argv[]) {
- QApplication a(argc, argv);
- MainWindow w;
- w.show();
-
- lets_play_with_sand();
-
- return a.exec();
+ return (0);
 }

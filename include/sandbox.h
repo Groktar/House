@@ -15,21 +15,12 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/**Headers.*/
- #include <stdio.h>
- #include <QtGui/QApplication>
- #include "mainwindow.h"
- #include "sandbox.h"
+#ifndef SANDBOX_H
+#define SANDBOX_H
 
 
 
-/**Main function.*/
-int main(int argc, char *argv[]) {
- QApplication a(argc, argv);
- MainWindow w;
- w.show();
+/**Start tests.*/
+int  lets_play_with_sand();
 
- lets_play_with_sand();
-
- return a.exec();
-}
+#endif
